@@ -199,7 +199,7 @@ public class MatchDetailActivity extends AppCompatActivity {
     // Dialog to update or delete comment
     private void showModifyDeleteDialog(Comment comment) {
         if (!comment.getUser().equals(loggedUser)) {
-            Toast.makeText(this, "Vous ne pouvez pas modifier/supprimer ce commentaire", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Vous ne pouvez pas modifier ou supprimer ce commentaire", Toast.LENGTH_SHORT).show();
             return;
         }
 

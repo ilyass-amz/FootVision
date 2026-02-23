@@ -35,7 +35,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public void updateComment(int id, String newComment) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
-        values.put("comment", newComment); // Mettre à jour le texte du commentaire
+        values.put("comment", newComment);
         db.update("comments", values, "id=?", new String[]{String.valueOf(id)});
     }
     public boolean checkUser(String username, String password){
