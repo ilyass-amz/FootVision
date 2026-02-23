@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_gradient">
+    <TextView
+        android:id="@+id/tvTitleRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#FFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Username"
+        android:padding="12dp"
+        android:background="#FF5722"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:background="#FF5722"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:background="#FF5722"
+        android:layout_marginBottom="30dp"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:backgroundTint="#FFFF"
+        android:textColor="#FF5722"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/addac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have an account"
+        android:textColor="#FF5722"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>
