@@ -1,9 +1,7 @@
-package com.exemple.footvision;
+package com.exemple.footvision.Ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -17,6 +15,10 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.android.volley.Request;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
+import com.exemple.footvision.Helpers.DBHelper;
+import com.exemple.footvision.Adapters.MatchAdapter;
+import com.exemple.footvision.Models.Match;
+import com.exemple.footvision.R;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;

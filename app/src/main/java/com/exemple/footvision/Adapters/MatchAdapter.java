@@ -1,4 +1,4 @@
-package com.exemple.footvision;
+package com.exemple.footvision.Adapters;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -6,6 +6,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.exemple.footvision.Models.Match;
+import com.exemple.footvision.R;
+
 import java.util.List;
 
 public class MatchAdapter extends RecyclerView.Adapter<MatchAdapter.MatchViewHolder> {

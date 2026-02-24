@@ -17,7 +17,7 @@
 
 
         <activity
-            android:name=".SplashActivity"
+            android:name=".Ui.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -28,21 +28,21 @@
 
 
         <activity
-            android:name=".MainActivity"
+            android:name=".Ui.MainActivity"
             android:exported="false" />
 
 
         <activity
-            android:name=".LoginActivity"
+            android:name=".Ui.LoginActivity"
             android:exported="false" />
 
 
         <activity
-            android:name=".RegisterActivity"
+            android:name=".Ui.RegisterActivity"
             android:exported="false" />
 
         <activity
-            android:name=".MatchDetailActivity"
+            android:name=".Ui.MatchDetailActivity"
             android:exported="false" />
 
     </application>

@@ -1,4 +1,4 @@
-package com.exemple.footvision;
+package com.exemple.footvision.Helpers;
 
 import android.content.ContentValues;
 import android.content.Context;

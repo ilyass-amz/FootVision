@@ -1,4 +1,4 @@
-package com.exemple.footvision;
+package com.exemple.footvision.Models;
 
 public class Match {
     private int id;

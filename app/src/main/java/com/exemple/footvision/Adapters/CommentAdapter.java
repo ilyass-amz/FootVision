@@ -1,4 +1,4 @@
-package com.exemple.footvision;
+package com.exemple.footvision.Adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.snackbar.Snackbar;
+import com.exemple.footvision.Models.Comment;
+import com.exemple.footvision.R;
 
 import java.util.List;
 

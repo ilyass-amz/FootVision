@@ -1,4 +1,4 @@
-package com.exemple.footvision;
+package com.exemple.footvision.Ui;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -14,6 +14,11 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.exemple.footvision.Adapters.CommentAdapter;
+import com.exemple.footvision.Helpers.DBHelper;
+import com.exemple.footvision.Models.Comment;
+import com.exemple.footvision.R;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
